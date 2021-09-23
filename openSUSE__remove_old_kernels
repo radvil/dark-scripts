@@ -1,0 +1,9 @@
+How to remove old kernels in OpenSUSE or other rpm based distro distros:
+
+-- List Kernels:
+# rpm -qa | grep -i kernel
+
+-- Delete kernel:
+# rpm -e kernel-{VERSION}
+
+or just uninstall the package
